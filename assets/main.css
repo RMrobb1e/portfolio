@@ -1,10 +1,4 @@
 /* Start Global */
-/* @import url(https://db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 @font-face {
   font-family: TheHistoriaDemo;
@@ -20,7 +14,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: url("images/sitebg.jpg") no-repeat center fixed;
+  background: url("../images/sitebg.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -43,6 +37,24 @@ img {
 }
 
 /* End Global */
+
+/* Start ParticleJS */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -10;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* End ParticleJS */
 
 /* Start Reusable */
 .container {
@@ -221,7 +233,7 @@ li {
 }
 
 .landing-text h6 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 
@@ -254,6 +266,10 @@ li {
 .profile-img {
   flex: 1;
   margin-right: 5rem;
+}
+
+#profile-img {
+  border-radius: 100%;
 }
 
 .about-details {
@@ -528,7 +544,7 @@ input[type="submit"]:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   body {
-    background: url("images/sitebg2.jpg") no-repeat center fixed;
+    background: url("../images/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
   }
 
@@ -613,6 +629,7 @@ input[type="submit"]:hover {
   }
 
   .profile-img {
+    width: auto;
     margin: 0 0 7rem 0;
   }
 
