@@ -1,9 +1,14 @@
 /* Start Global */
-@import url(https://db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
+/* @import url(https://db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: TheHistoriaDemo;
+  src: url(the_historia_demo.woff);
 }
 
 html {
@@ -128,7 +133,7 @@ li {
 }
 
 .nav-link {
-  font-family: "The Historia Demo", sans-serif;
+  font-family: TheHistoriaDemo, sans-serif;
   font-size: 5rem;
   padding: 1rem;
 }
@@ -206,7 +211,7 @@ li {
 
 .landing-text h1 {
   font-size: 20rem;
-  font-family: "The Historia Demo", sans-serif;
+  font-family: TheHistoriaDemo, sans-serif;
   background: linear-gradient(to top, #ffe838, #fd57bf);
   -webkit-background-clip: text;
   background-clip: text;
