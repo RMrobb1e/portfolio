@@ -33,7 +33,7 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 50%;
 }
 
 /* End Global */
@@ -319,7 +319,7 @@ li {
 .skill h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 2rem -2px 2rem 0;
+  margin: 5rem -2px 2rem 0;
 }
 
 .icon-container {
@@ -433,7 +433,7 @@ li {
 
 .timeline .date::before {
   content: attr(data-date);
-  left: -21rem;
+  left: -28rem;
   text-align: right;
   min-width: 12rem;
   font-size: 1.5rem;

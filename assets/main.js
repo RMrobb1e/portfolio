@@ -151,7 +151,7 @@ $(document).ready(function() {
   AOS.init({
     easing: "ease",
     duration: 1800,
-    once: true //if you want animation to happen only once
+    once: false //if you want animation to happen only once
   });
 });
 
